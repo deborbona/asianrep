@@ -1,0 +1,63 @@
+body {
+  background-color: #000000
+}
+
+#navigationBar {
+  position: fixed;
+  width: 248px;
+  height: 100vh;
+  color: #ffffff;
+  font-family: 'Roboto Slab', serif;
+}
+
+#mainContainer {
+  margin-left: 240px;
+}
+
+#heroBanner {
+  background-color: #333;
+  background-image: url("https://sm.mashable.com/mashable_sea/news/p/parasite-w/parasite-wins-best-picture-at-the-2020-oscars_j7m7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  height: 640px;
+}
+
+#mainTitleText {
+  font-size: 64pt;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+.sectionHeader {
+  text-decoration: none;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#otherBanner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  height: 640px;
+  font-family: sans-serif;
+}
+
+.sectionHeaderAbout {
+  text-decoration: none;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.thumbnailContainer {
+  display: flow-root;
+  justify-content: space-between;
+}
+
+.thumbnailImage {
+  width: 10%;
+  height: 100px;
+  object-fit: cover;
+}
