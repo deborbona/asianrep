@@ -3,15 +3,18 @@ body {
 }
 
 #navigationBar {
-  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 248px;
-  height: 100vh;
+  height: 10vh;
   color: #ffffff;
   font-family: 'Roboto Slab', serif;
 }
 
 #mainContainer {
-  margin-left: 240px;
+  display: flex;
+  flex-direction: column;
 }
 
 #heroBanner {
@@ -22,12 +25,18 @@ body {
   background-position: center;
   color: #fff;
   height: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #mainTitleText {
   font-size: 64pt;
-  text-align: center;
   font-family: 'Roboto Slab', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sectionHeader {
@@ -37,11 +46,10 @@ body {
 }
 
 #otherBanner {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: #fff;
-  height: 640px;
   font-family: sans-serif;
 }
 
@@ -49,10 +57,12 @@ body {
   text-decoration: none;
   text-align: left;
   font-family: sans-serif;
+  line-height: 2.0;
 }
 
 .thumbnailContainer {
-  display: flow-root;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -60,4 +70,7 @@ body {
   width: 10%;
   height: 100px;
   object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
